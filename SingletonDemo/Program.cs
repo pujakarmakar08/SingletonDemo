@@ -14,12 +14,12 @@ namespace SingletonDemo {
 
         private static void PrintLog2() {
             var log2 = Logger.GetLogger;
-            log2.PrintDetails("Log 2 message");
+            log2.PrintDetails("Log 2 message.");
         }
 
         private static void PrintLog1() {
             var log1 = Logger.GetLogger;
-            log1.PrintDetails("Log 1 message");
+            log1.PrintDetails("Log 1 message.");
         }
     }
 }
